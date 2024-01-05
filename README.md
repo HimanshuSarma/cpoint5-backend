@@ -5,6 +5,6 @@
 3. I have a variable named "MONGOURI" in the .env file which is the connection string of the mongodb
 atlas instance
 4. There are two endpoints:
-    4.1. POST, endpoint: /grocery/single, body: {name: 'some string'} (This endpoint creates a new grocery
+    1. POST, endpoint: /grocery/single, body: {name: 'some string'} (This endpoint creates a new grocery
     item in the database)
-    4.2 GET, endpoint /grocery/all (This endpoint fetches all the grocery items)
+    2. GET, endpoint /grocery/all (This endpoint fetches all the grocery items)
